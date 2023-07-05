@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# __React Weather App__
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a weather application built using React.js that provides users with real-time weather information for different locations. With React Weather App, you can stay updated on current weather conditions, temperature, humidity, wind speed, and more.
 
-## Available Scripts
+Deployed Link : https://rahulmaurya-exe.github.io/react-weather-app/
 
-In the project directory, you can run:
+---
+## __Screenshots__
+![React Weather App Screenshot](./Screenshots/wa1.jpg)
 
-### `npm start`
+![React Weather App Screenshot](./Screenshots/wa2.jpg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
+## __Features__
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Real-Time Weather Data:** The app fetches weather data from a OpenWeatherMap API to provide users with up-to-date information about the current weather conditions in their selected location.
 
-### `npm test`
+- **Search Functionality:** Users can search for weather information for specific locations by entering the city name or ZIP code. The app retrieves the relevant weather data and displays it on the screen.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Different Themes:** App has different theme for hot and cold conditions.
 
-### `npm run build`
+---
+## __Installation__
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the React Weather App locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```
+   git clone https://github.com/rahulmaurya-exe/react-weather-app.git
+   ```
 
-### `npm run eject`
+2. Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```
+   cd react-weather-app
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install the dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Start the development server:
 
-## Learn More
+   ```
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Open your web browser and visit `http://localhost:3000` to access the React Weather App.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+## __Tech Stack__
 
-### Code Splitting
+The React Weather App is built using the following technologies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React.js: A JavaScript library for building user interfaces.
+- HTML: The markup language used for structuring the app.
+- CSS: The styling language used for enhancing the app's visual appearance.
+- OpenWeatherMap API : API to fetch the realtime weather condition.
 
-### Analyzing the Bundle Size
+---
+## __Folder Structure__
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The folder structure of the React Weather App is organized as follows:
 
-### Making a Progressive Web App
+```
+react-weather-app/
+  ├── public/
+  │   ├── index.html
+  │   └── ...
+  ├── src/
+  │   ├── assests/
+  │   │   ├── cold-bg.jpg
+  │   │   ├── warm-bg.js
+  │   ├── App.js
+  │   ├── index.js
+  │   └── index.css
+  ├── package.json
+  ├── package-lock.json
+  ├── README.md
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
 
-### Advanced Configuration
+- **public**: Contains the index.html file, which is the entry point for the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **src**: Contains the source code of the React Weather App.
 
-### Deployment
+  - **assessts**: Contains image assets used in the app, such as weather icons.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  - **App.js**: The main component that serves as the entry point for the application.
 
-### `npm run build` fails to minify
+  - **index.js**: The file responsible for rendering the App component and mounting it into the HTML document.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **package.json**: Contains information about the project and its dependencies.
+
+- **package-lock.json**: Automatically generated file that provides version information for the installed dependencies.
+
+- **README.md** : The readme file that provides information about the React Weather App.
+
+---
+## __Usage__
+
+Once the React Weather App is running, you can perform the following actions:
+
+- **Search for Weather:** Enter the name of a city or ZIP code in the search bar to fetch the weather information for that location. The app will display the current weather conditions, temperature, humidity, wind speed, and other relevant details.
+
+---
+## __License__
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
